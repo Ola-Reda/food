@@ -1,0 +1,184 @@
+/*start header*/
+
+header {
+    background-image: url(../images/hamburger.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+
+/*start navbar*/
+
+nav {
+    font-family: fangsong;
+    letter-spacing: 1px;
+}
+
+nav .navbar-brand {
+    letter-spacing: 2px;
+}
+
+nav a {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+
+/*end navbar*/
+
+.heading h1 {
+    color: #5a5b5f;
+    font-size: 38px;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+
+
+/*end header*/
+
+
+/*start section about*/
+
+.about {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about img {
+    width: 100%;
+    opacity: .65;
+}
+
+.about h5,
+.about h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.about p {
+    margin-top: 25px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    font-family: fangsong;
+}
+
+.about p:last-child {
+    color: rgb(117, 117, 117);
+}
+
+@media (max-width:767px) {
+    .about img {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .about p:last-child {
+        display: none;
+    }
+}
+
+
+/*end section about*/
+
+hr {
+    width: 84%;
+}
+
+
+/*start section menu*/
+
+.menu {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.menu h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+
+.menu h5 {
+    font-family: fangsong;
+    margin-bottom: 10px;
+}
+
+.menu p {
+    color: rgb(117, 117, 117);
+    font-family: fangsong;
+    margin-bottom: 40px;
+}
+
+.menu img {
+    width: 100%;
+    opacity: .65;
+}
+
+
+/*end section menu*/
+
+
+/*start section contact-us*/
+
+.contact {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    font-family: fangsong;
+}
+
+.contact h2 {
+    letter-spacing: 1.5px;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+.contact h6 {
+    color: #607d8b;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contact input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+.contact button {
+    background-color: #f1f1f1;
+    outline: none;
+    border: 1px solid #f1f1f1;
+    padding: 5px 15px;
+    transition: all .5s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+}
+
+
+/*end section contact-us*/
+
+
+/*start footer*/
+
+footer {
+    background-color: #f1f1f1;
+    padding-top: 16px;
+    padding-bottom: 1px;
+}
+
+
+/*end footer*/
